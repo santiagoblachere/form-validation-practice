@@ -1,0 +1,10 @@
+<a href="/new">submit a new message!</a>
+<div>
+    <%= title %>
+    <% messages.forEach(message => { %>
+        <div>
+            <%= message.text %>  
+            <a href="/message/<%= message.id %>">details</a>
+        </div>
+    <% }); %>
+</div>
