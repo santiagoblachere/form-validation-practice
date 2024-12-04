@@ -7,7 +7,7 @@ app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "ejs");
 
 const indexRouter = require("./routers/index");
-const PORT = 3000;
+const PORT = 8000;
 
 app.use(express.urlencoded({ extended: true }));
 
