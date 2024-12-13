@@ -3,7 +3,7 @@
     <%= title %>
     <% messages.forEach(message => { %>
         <div>
-            <%= message.message %>  
+            message: <%= message.message %>  
             <a href="/message/<%= message.id %>">details</a>
         </div>
     <% }); %>
