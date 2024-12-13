@@ -1,0 +1,15 @@
+                               List of databases
+     Name      |  Owner   | Encoding | Collate | Ctype |   Access privileges   
+---------------+----------+----------+---------+-------+-----------------------
+ message_board | santi    | LATIN1   | en_US   | en_US | 
+ postgres      | postgres | LATIN1   | en_US   | en_US | 
+ santi         | postgres | LATIN1   | en_US   | en_US | =Tc/postgres         +
+               |          |          |         |       | postgres=CTc/postgres+
+               |          |          |         |       | santi=CTc/postgres
+ template0     | postgres | LATIN1   | en_US   | en_US | =c/postgres          +
+               |          |          |         |       | postgres=CTc/postgres
+ template1     | postgres | LATIN1   | en_US   | en_US | =c/postgres          +
+               |          |          |         |       | postgres=CTc/postgres
+ top_users     | santi    | LATIN1   | en_US   | en_US | 
+(6 rows)
+

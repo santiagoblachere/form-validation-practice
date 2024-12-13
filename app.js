@@ -2,6 +2,11 @@ const express = require('express');
 const app = express();
 const http = require('http').createServer(app);
 const path = require("node:path");
+require('dotenv').config()
+console.log(process.env.PASS)
+  
+
+
 
 app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "ejs");

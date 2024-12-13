@@ -1,11 +1,13 @@
 {
   "scripts": {
-  "start": "node app.js",
-  "build": "echo 'No build step defined'"
+    "start": "node app.js",
+    "build": "echo 'No build step defined'"
   },
-
   "dependencies": {
+    "dotenv": "^16.4.7",
     "ejs": "^3.1.10",
-    "express": "^4.21.1"
+    "express": "^4.21.1",
+    "express-validator": "^7.2.0",
+    "pg": "^8.13.1"
   }
 }

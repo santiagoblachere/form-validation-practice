@@ -1,6 +1,10 @@
 <a href="/">go back!</a>
 <div>
-    <%- message.text %>
-    <%- message.user %>
-    <%- message.added %>
+    <ul>
+        <li>User: <%- message.username %></li>
+        <li>Message: <%- message.message %></li>
+        <li>Timestamp: <%- message.added %></li>
+    </ul>
+    <form action="/message/<%- message.id %>" method="POST"><input type="submit" value="Delete"></form>
+    
 </div>
